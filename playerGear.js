@@ -932,18 +932,18 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=300000
-                stats.capacityMultiplier*=2
-                stats.lootLuck*=2
-                stats.convertRate*=1.8
-                stats.honeyFromTokens*=1.5
-                stats.whiteBeeAttack+=2
-                stats.whiteBombPollen*=1.5
-                stats.beeEnergy*=1.25
+                stats.capacity+=300000000000
+                stats.capacityMultiplier*=10
+                stats.lootLuck*=100
+                stats.convertRate*=180
+                stats.honeyFromTokens*=15
+                stats.whiteBeeAttack+=2000
+                stats.whiteBombPollen*=150
+                stats.beeEnergy*=1250
                 player.addEffect('petalStormPassive')
             },
             desc:'Drape these petals about your waist to harness unlimited flower power.<br><br>+300,000 capacity<br>x2 capacity<br>x2 loot luck<br>x1.8 convert rate<br>x1.5 honey from tokens<br>+2 white bee attack<br>x1.5 white bomb pollen<br>x1.25 bee energy<br>+Passive: Petal Storm',
-            cost:['15000000000 honey','15 starJelly','50 glitter','75 glue','1 spiritPetal'],
+            cost:['15 honey','1 glitter','1 glue'],
         }
     },
     
@@ -1143,11 +1143,11 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=450000
-                stats.convertRate*=2.5
-                stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,0.1)
-                stats.bluePollen*=1.1
-                stats.blueBeeAttack+=1
+                stats.capacity+=45000000000000000000
+                stats.convertRate*=25.5
+                stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,0.99)
+                stats.bluePollen*=11.0
+                stats.blueBeeAttack+=100
             },
             desc:'A Port-O-Hive dipped in shiny blue paint. Works best for blue bees and blue pollen.<br>+450,000 capacity<br>x2.5 convert rate<br>+10% instant blue conversion<br>x1.1 blue pollen<br>+1 blue bee attack',
             cost:['7500000 honey'],
@@ -1208,10 +1208,10 @@ window.playerGear={
                 stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,0.15)
                 stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,0.15)
                 stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,0.1)
-                stats.whitePollen*=1.25
-                stats.whitePollen*=1.25
-                stats.redPollen*=1.25
-                stats.bluePollen*=1.25
+                stats.whitePollen*=3.25
+                stats.whitePollen*=3.25
+                stats.redPollen*=3.25
+                stats.bluePollen*=3.25
                 stats.whiteBeeAttack+=2
                 stats.redBeeAttack+=2
                 stats.blueBeeAttack+=2
@@ -1221,7 +1221,7 @@ window.playerGear={
                 player.addEffect('emergencyCoconutShieldPassive')
             },
             desc:'A back-mounted coconut that protects you during emergencies.<br><br>+2,500,000 capacity<br>x5 convert rate<br>+15% instant conversion<br>+10% instant white conversion<br>x1.25 pollen<br>x1.25 white pollen<br>+2 bee attack<br>+10% defense<br>x1.1 honey at hive<br>+Passive: Emergengy Coconut Shield<br>+Passive: Inspire Coconuts',
-            cost:['20000000000 honey','75 tropicalDrink','100 redExtract','100 blueExtract'],
+            cost:['2 honey','0 tropicalDrink','1 redExtract','1 blueExtract'],
         }
     },
     
